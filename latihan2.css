@@ -1,0 +1,14 @@
+/* SELECTOR TAG */
+h3 {
+    color: blue;
+}
+
+/* SELECTOR CLASS */
+.teks {
+    color: purple;
+}
+
+/* SELECTOR ID */
+#teks {
+    color: yellow;
+}

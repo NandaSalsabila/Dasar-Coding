@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar DOM</title>
+</head>
+<body>
+    <button id="tombolGanti">Klik untuk ubah isi paragraf</button>
+    <p id="pesan">Ini adalah paragraf</p>
+
+    <!-- Memasukkan codingan javascript -->
+     <script>
+        // memilih element html
+        let tombol = document.getElementById("tombolGanti");
+        let paragraf = document.getElementById("pesan");
+
+        // Menambahkan event listener(memberikan perintah) ke tombol
+        tombol. addEventListener("click", function() {
+            alert("Tombol sudah diklik!");
+            paragraf.textContent = "Paragraf telah diubah!";
+        });
+     </script>
+</body>
+</html>

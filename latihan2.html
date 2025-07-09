@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 2</title>
+
+    <!-- css internal -->
+     <style>
+        h2 {
+            color: green;
+
+        }
+     </style>
+
+     <!-- Menghubungkan css internal -->
+      <link rel="stylesheet" href="./latihan2.css">
+</head>
+<body>
+    <!-- 
+    Ada 3 tipe penggunaan css :
+    1. css inline = menambahkan atribut "style" didalam tag pembuka
+    2. css internal = menambahgan tag "style" didalam tag head
+    3. css eksternal = membuat file dengan format ".css" dan menghubungkan ke file html
+
+    Ada 3 tipe selector :
+    1. selector tag html = memanggil tag html yang ingin dimodifikasi, sifatnya "global"
+    2. selector class = menambahkan atribut "class" pada tag pembuka html, sifatnya spesifik, simbol pemanggilan adalah dengan tanda "."
+    3. selector id = menambahkan atribut "id" pada tag pembuka html, sifatnya "spesifik", simbol pemanggilan adalah tanda "#"
+     -->
+
+     <!-- css Inline -->
+      <h1 style="color: red; font-family: arial;">Contoh CSS Inline</h1>
+
+      <!-- css internal -->
+       <h2>Conroh css internal</h2>
+
+    <!-- css eksternal -->
+     <h3>Contoh css eksternal</h3>
+
+     <h3 class="teks">contoh atribut class</h3> 
+     <h3 id="teks">contok atribut id</h3>
+</body>
+</html>
